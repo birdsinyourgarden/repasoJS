@@ -7,3 +7,58 @@
 6. Utiliza la función convertirFahrenheit para mostrar la temperatura en grados Fahrenheit en la consola.
 7. Crea una funcion llamada esPar que tome un numero como argumento y devuelva true o false si el numero es par. Puedes utilizar el operador modulo % para ver si tiene resto la operación y saber si es par o no.
 8. Utiliza la función esPar */
+
+let puntuacion = 85;
+
+if (puntuacion >= 70) {
+    console.log("Aprobado");
+} else {
+    console.log("Reprobado");
+}
+
+let dia = 3;
+
+switch (dia) {
+    case 1:
+        console.log("Lunes");
+        break;
+    case 2:
+        console.log("Martes");
+        break;
+    case 3:
+        console.log("Miércoles");
+        break;
+    case 4:
+        console.log("Jueves");
+        break;
+    case 5:
+        console.log("Viernes");
+        break;
+    case 6:
+        console.log("Sábado");
+        break;
+    case 7:
+        console.log("Domingo");
+        break;
+    default:
+        console.log("Número de día no válido");
+}
+
+function convertirFahrenheit(celsius) {
+    return (celsius * 9 / 5) + 32;
+}
+
+let temperaturaCelsius = 25;
+let temperaturaFahrenheit = convertirFahrenheit(temperaturaCelsius);
+console.log(`${temperaturaCelsius}°C equivalen a ${temperaturaFahrenheit}°F`);
+
+function esPar(numero) {
+    return numero % 2 === 0;
+}
+
+let numeroPrueba = 42;
+if (esPar(numeroPrueba)) {
+    console.log(`${numeroPrueba} es un número par`);
+} else {
+    console.log(`${numeroPrueba} es un número impar`);
+}

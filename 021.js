@@ -17,3 +17,29 @@ const numbers = [1, 2, 3, 4, 5]
 21.6 Dividir en Subcadenas
 Dada una cadena de texto que contiene palabras separadas por espacios, utiliza el método split() para dividir la cadena en un array de palabras individuales. Luego, imprime el array resultante.
 const sentence = 'Esta es una oración de ejemplo.' */
+
+const numbers = [1, 2, 3];
+numbers.push(4, 5);
+console.log(numbers);
+
+const colors = ['red', 'green', 'blue'];
+const lastColor = colors.pop();
+console.log(lastColor);
+console.log(colors);
+
+const fruits = ['apple', 'banana', 'orange'];
+fruits.unshift('grape', 'pineapple');
+console.log(fruits);
+
+const animals = ['dog', 'cat', 'rabbit'];
+const firstAnimal = animals.shift();
+console.log(firstAnimal);
+console.log(animals);
+
+const numbers2 = [1, 2, 3, 4, 5];
+const subArray = numbers2.slice(1, 4);
+console.log(subArray);
+
+const sentence = 'Esta es una oración de ejemplo.';
+const words = sentence.split(' ');
+console.log(words);

@@ -10,3 +10,25 @@
     Resta num1 y num2 y guarda el resultado en una variable llamada resta.
     Multiplica num1 por num2 y guarda el resultado en una variable llamada multiplicacion.
     Divide num1 entre num2 y guarda el resultado en una variable llamada division. */
+
+let nombre = "Paloma";
+
+let edad = 36;
+
+let esEstudiante = true;
+
+let mensaje = `Hola, mi nombre es ${nombre} y tengo ${edad} años.`;
+
+let num1 = 10;
+
+let num2 = 5;
+
+let suma =  num1 + num2;
+let resta = num1 - num2;
+let multiplicacion = num1 * num2;
+
+console.log(mensaje);
+console.log("Suma:", suma);
+console.log("Resta:", resta);
+console.log("Multiplicación:", multiplicacion);
+console.log("División:", division);
